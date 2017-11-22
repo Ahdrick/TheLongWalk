@@ -1,28 +1,18 @@
-tile = instance_nearest(x,y,oTile)
 if selected {
-	if keyboard_check_pressed(vk_up){
-		tile.contains = 0
-		tile = instance_nearest(x,y-140,oTile)
-	}
-	if keyboard_check_pressed(vk_down){
-		tile.contains = 0;
-		tile = instance_nearest(x,y+140,oTile)
-	}
-	if keyboard_check_pressed(vk_left){
-		tile.contains = 0;
-		tile = instance_nearest(x-140,y,oTile)
-	}
-	if keyboard_check_pressed(vk_right){
-		tile.contains = 0;
-		tile = instance_nearest(x+140,y,oTile)
-	}
-	if instance_exists(tile){
+	global.selected = self.id
+}
+if global.startMove{
+	for(var i = 0; i < ds_queue_size(global.moveTileQue) + 2; i++){
+		tile = ds_queue_dequeue(global.moveTileQue)
 		x = tile.x
 		y = tile.y
+		tile.contains = self.id
+		tile.selected = false
+		tile.destination = false
 	}
+	ds_queue_clear(global.moveTileQue)
+	global.startMove = false
 }
-
-tile.contains = id
 
 if mouse_check_button_pressed(mb_left){
 	if position_meeting(mouse_x,mouse_y,self)

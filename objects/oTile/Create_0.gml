@@ -1,3 +1,7 @@
 /// creates the tiles
-contains = 0;
-touching = find_neighbors(x,y,oTile,10);
+contains = 0
+selecting = 0
+selected = false
+destination = false
+
+ds_list_add(global.tileList, self.id)

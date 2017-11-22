@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0bc3c133-a06e-48a8-bbe6-30ef60eb9166",
+            "Value": {
+                "id": "67aa2c4b-e36b-415e-918f-414c52fc34c2",
+                "resourcePath": "sprites\\sGroundMask\\sGroundMask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e5efca8-efde-402d-9877-ca72bd7afc9d",
             "Value": {
                 "id": "b0e6c23f-48b3-4689-b09a-174aa1886c61",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "a2537a3a-bb62-42b1-98d3-fc1764fc4b12",
+            "Value": {
+                "id": "68b6dca7-09c9-4767-bf5e-6694187152fd",
+                "resourcePath": "scripts\\create_queue\\create_queue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "89577f79-2cc7-42bf-bdbe-12677917b1d6",
@@ -304,7 +320,8 @@
         }
     ],
     "script_order": [
-        "1ab58932-c369-4157-be55-b905bfff2779"
+        "1ab58932-c369-4157-be55-b905bfff2779",
+        "a2537a3a-bb62-42b1-98d3-fc1764fc4b12"
     ],
     "tutorial": ""
 }
