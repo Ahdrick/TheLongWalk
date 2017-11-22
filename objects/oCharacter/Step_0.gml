@@ -1,8 +1,8 @@
 if selected {
 	global.selected = self.id
 }
-if global.startMove{
-	for(var i = 0; i < ds_queue_size(global.moveTileQue) + 2; i++){
+if global.startMove and selected{
+	while !ds_queue_empty(global.moveTileQue){
 		tile = ds_queue_dequeue(global.moveTileQue)
 		x = tile.x
 		y = tile.y
