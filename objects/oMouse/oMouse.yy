@@ -1,18 +1,28 @@
 {
-    "id": "64fc9a24-5fff-4ce9-b288-4a7c2ad4ece7",
+    "id": "b57ad761-339b-46df-81c4-ed5317fab138",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oMovementManager",
+    "name": "oMouse",
     "eventList": [
         {
-            "id": "71d6b5e0-d297-4b40-9a37-03afba5049ed",
+            "id": "0dbc4a95-d96d-4081-8049-6b1dbc2d0c19",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b57ad761-339b-46df-81c4-ed5317fab138"
+        },
+        {
+            "id": "3af1e6c4-c330-423f-9317-b264c932cbf8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "64fc9a24-5fff-4ce9-b288-4a7c2ad4ece7"
+            "m_owner": "b57ad761-339b-46df-81c4-ed5317fab138"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -32,5 +42,5 @@
     "physicsStartAwake": true,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

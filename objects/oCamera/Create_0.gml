@@ -23,6 +23,6 @@ surface_resize(application_surface,ideal_width,ideal_height);
 window_set_size(ideal_width,ideal_height);
 window_center();
 
-follow = oWanderer
+follow = noone
 x2 = x
 y2 = y

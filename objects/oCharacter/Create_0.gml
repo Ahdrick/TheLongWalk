@@ -6,5 +6,6 @@ y = tile.y
 
 ds_list_add(global.charList,self.id)
 
-selected = false;
-numMoves = 0;
+selected = false
+hasMoved = false
+completedMove = true

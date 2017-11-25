@@ -71,11 +71,27 @@
             }
         },
         {
+            "Key": "1e4eb1e1-3990-4e81-9f16-ab046dcb7d70",
+            "Value": {
+                "id": "b9770b10-4632-4889-bf44-eb03f6e61b0d",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "21ed4744-c7de-4f00-9b72-b202be281fcd",
             "Value": {
                 "id": "202e0d35-1e3b-48b1-8422-9462a13cfb46",
                 "resourcePath": "views\\21ed4744-c7de-4f00-9b72-b202be281fcd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2c429292-c3ac-4bc1-871a-49d9980653af",
+            "Value": {
+                "id": "4a2a94ae-5e6e-43f2-b2cd-a8d7f7825c9f",
+                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -162,7 +178,7 @@
             "Key": "64fc9a24-5fff-4ce9-b288-4a7c2ad4ece7",
             "Value": {
                 "id": "982f44df-510e-4f28-861d-ed29cb8f2ea8",
-                "resourcePath": "objects\\oMovementManager\\oMovementManager.yy",
+                "resourcePath": "objects\\oGlobalManager\\oGlobalManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -231,11 +247,27 @@
             }
         },
         {
+            "Key": "a808c078-a913-4c0a-b842-e0cd3ff370d4",
+            "Value": {
+                "id": "f377d809-c877-43d4-ada4-92f5f752554d",
+                "resourcePath": "sprites\\sSwamp\\sSwamp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "89577f79-2cc7-42bf-bdbe-12677917b1d6",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b57ad761-339b-46df-81c4-ed5317fab138",
+            "Value": {
+                "id": "1154c5fb-6b12-48d3-93ee-e53b86ce7f46",
+                "resourcePath": "objects\\oMouse\\oMouse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -260,6 +292,14 @@
                 "id": "0f6b74e1-a21f-46ca-b2cf-0c6812a0e573",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce08938d-aca7-42db-9d93-e8c6f04ef75b",
+            "Value": {
+                "id": "e91dd1fe-ae85-4591-a2f3-07365c8c6afb",
+                "resourcePath": "sprites\\sGround\\sGround.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -315,6 +355,14 @@
             "Value": {
                 "id": "d747ea1f-a24f-4d6b-83d2-545033203ce6",
                 "resourcePath": "objects\\oGround1\\oGround1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fcc98034-ae21-4cf2-bb8a-465d3c2bc4d3",
+            "Value": {
+                "id": "5c4841a9-7957-4e88-9b91-779b5a8762c6",
+                "resourcePath": "objects\\oPlant\\oPlant.yy",
                 "resourceType": "GMObject"
             }
         }
