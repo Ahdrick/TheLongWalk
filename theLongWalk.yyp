@@ -167,11 +167,27 @@
             }
         },
         {
+            "Key": "52448675-68d2-448c-bd2e-34feb10e20c3",
+            "Value": {
+                "id": "64708bf0-74c3-4a77-8420-96d31a4a21bb",
+                "resourcePath": "scripts\\findPaths\\findPaths.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "52be5986-fd43-4707-80e4-b8e7244727ae",
             "Value": {
                 "id": "297032af-5c8f-4ce8-9ddb-0feaa2d97a64",
                 "resourcePath": "views\\52be5986-fd43-4707-80e4-b8e7244727ae.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5fb5f68e-66eb-424a-849b-f7c7c250bc1d",
+            "Value": {
+                "id": "95a801c1-e08c-4826-ad60-e134f5799e40",
+                "resourcePath": "objects\\oDepthParent\\oDepthParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "daf354c5-d76f-4b1f-84b9-de3c63c236da",
+            "Value": {
+                "id": "057f2b83-dab3-4d21-83c6-d6d1bf53d015",
+                "resourcePath": "objects\\oDraw\\oDraw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dc1d0e94-c2d6-424a-ac57-1adc6899951b",
             "Value": {
                 "id": "131a13d2-157a-452f-8a82-0ea5108d5441",
@@ -448,7 +472,7 @@
         }
     ],
     "script_order": [
-        
+        "52448675-68d2-448c-bd2e-34feb10e20c3"
     ],
     "tutorial": ""
 }

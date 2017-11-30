@@ -1,40 +1,38 @@
-if global.startMove 
-	if !ds_queue_empty(global.moveTileQue){
-		if completedMove{
+if (global.startMove and id = global.selected) {
+	if (!ds_queue_empty(global.moveTileQue)) {
+		if (completedMove) {
+			tile.contains = 0
 			tile = ds_queue_dequeue(global.moveTileQue)
-			tile.selected    = false
-			tile.destination = false
-			completedMove    = false
+			tile.selected = false
+			completedMove = false
 		}
-	}
-	else
+	} else
 		global.startMove = false
-if !completedMove {
+}
+
+if (!completedMove) {
 	x = lerp(x, tile.x, .15)
 	y = lerp(y, tile.y, .15)
 }
-if point_distance(x,y,tile.x,tile.y) < 1 {
+
+if (point_distance(x,y,tile.x,tile.y) < 1) {
 	x = tile.x
 	y = tile.y
-	completedMove = true
+	tile.contains = self.id
 	tile.queued   = false
-	tile.contains = self
+	completedMove = true
 }
 
-if global.startMove
+if (global.startMove)
 	global.selecting = false
 
-if mouse_check_button_pressed(mb_left) {
-	if position_meeting(mouse_x,mouse_y,self) {
-		selected = true
+if (mouse_check_button_pressed(mb_left)) {
+	if (position_meeting(mouse_x,mouse_y,self))
 		global.selected = self.id
-	}
-	else{
-		selected = false
+	if (!position_meeting(mouse_x,mouse_y,oCharacter))
 		global.selected = 0
-	}
 }
-
-if y != yprevious
-   depth = -y+5;
-  
+if (self.id = global.selected)
+	selected = true
+else 
+	selected = false
