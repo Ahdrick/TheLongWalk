@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "874ad103-c98a-4347-857c-a2d843a75e59",
+            "Value": {
+                "id": "0f51d482-b148-4ef8-b1c4-40c9916acf59",
+                "resourcePath": "scripts\\script1\\script1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "87b42008-c57a-4e0f-b028-95e2315a317d",
             "Value": {
                 "id": "394b0133-f888-4858-90b3-ac03e83d9347",
@@ -316,14 +324,6 @@
                 "id": "89577f79-2cc7-42bf-bdbe-12677917b1d6",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "b57ad761-339b-46df-81c4-ed5317fab138",
-            "Value": {
-                "id": "1154c5fb-6b12-48d3-93ee-e53b86ce7f46",
-                "resourcePath": "objects\\oMouse\\oMouse.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -472,7 +472,8 @@
         }
     ],
     "script_order": [
-        "52448675-68d2-448c-bd2e-34feb10e20c3"
+        "52448675-68d2-448c-bd2e-34feb10e20c3",
+        "874ad103-c98a-4347-857c-a2d843a75e59"
     ],
     "tutorial": ""
 }
