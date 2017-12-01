@@ -29,3 +29,6 @@ follow = noone
 
 x2 = x
 y2 = y
+
+mousexPrev = 0
+mouseyPrev = 0

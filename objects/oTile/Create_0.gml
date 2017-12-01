@@ -3,6 +3,7 @@ contains  = 0
 selected  = false
 queued    = false
 enemyMove = false
+
 list      = ds_list_create()
 N  = noone
 NE = noone
@@ -15,3 +16,5 @@ _x = 224
 _y = 51
 
 alarm[0] = 1
+
+ds_list_add(global.tileList,self.id)
