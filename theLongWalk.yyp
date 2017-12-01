@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0744516e-082e-4c5f-b184-3df923d8961d",
-            "Value": {
-                "id": "0128762b-e994-4c10-a8b4-b56fe548b9be",
-                "resourcePath": "objects\\oSelectChar\\oSelectChar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "09700ccc-1703-4782-b534-5e2189807cbb",
             "Value": {
                 "id": "1583ba7c-5bb3-441e-ba71-153d6d863889",
@@ -52,14 +44,6 @@
                 "id": "67aa2c4b-e36b-415e-918f-414c52fc34c2",
                 "resourcePath": "sprites\\sGroundMask\\sGroundMask.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "11463f8f-1288-45f5-9eb9-59f50549606b",
-            "Value": {
-                "id": "a7a590c2-6de6-4800-8a85-83443e1023d9",
-                "resourcePath": "views\\11463f8f-1288-45f5-9eb9-59f50549606b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -103,14 +87,6 @@
             }
         },
         {
-            "Key": "2a89d904-8eb3-4af2-8f8a-ec3a51bb8f3e",
-            "Value": {
-                "id": "ece4e9bc-09ae-444c-997a-9553af58efec",
-                "resourcePath": "objects\\oPartyManager\\oPartyManager.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2c429292-c3ac-4bc1-871a-49d9980653af",
             "Value": {
                 "id": "4a2a94ae-5e6e-43f2-b2cd-a8d7f7825c9f",
@@ -148,14 +124,6 @@
                 "id": "4d1831b0-8d85-475a-9fec-c258271789eb",
                 "resourcePath": "objects\\oWanderer\\oWanderer.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "408c2fd8-2685-429a-89e4-d678fb1cdbf8",
-            "Value": {
-                "id": "4082469d-204b-4c97-93b0-d5eedb4988a0",
-                "resourcePath": "rooms\\rm_char_select\\rm_char_select.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -287,14 +255,6 @@
             }
         },
         {
-            "Key": "8591c343-66b7-41f9-bd57-f8446efb86f4",
-            "Value": {
-                "id": "7269cd83-51bb-42fb-9f1d-a28531002098",
-                "resourcePath": "objects\\oCharEnter\\oCharEnter.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "87b42008-c57a-4e0f-b028-95e2315a317d",
             "Value": {
                 "id": "394b0133-f888-4858-90b3-ac03e83d9347",
@@ -351,27 +311,11 @@
             }
         },
         {
-            "Key": "a82564af-552f-4bc6-a4e2-1d0a487068f8",
-            "Value": {
-                "id": "156c2231-fb98-421d-a251-383ee72688c1",
-                "resourcePath": "objects\\oSelectArrow\\oSelectArrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "89577f79-2cc7-42bf-bdbe-12677917b1d6",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aa857148-cb1e-4263-be60-eb6ba8769254",
-            "Value": {
-                "id": "0351876f-9690-482c-9f4f-1774bc721d26",
-                "resourcePath": "sprites\\sArrow\\sArrow.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -524,14 +468,6 @@
                 "id": "ee1579df-7c7d-44a2-9a68-329a4f2d80a8",
                 "resourcePath": "views\\fb2a9bfb-9db3-47d9-b3c9-37be18ce94f3.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fc872582-9078-4ff9-aa8e-bfdda829c86b",
-            "Value": {
-                "id": "67bed3a8-e6ec-4a4f-b49c-4d6b685e7098",
-                "resourcePath": "sprites\\sCharEnter\\sCharEnter.yy",
-                "resourceType": "GMSprite"
             }
         }
     ],
