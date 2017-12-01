@@ -9,3 +9,4 @@ ds_list_add(global.charList,self.id)
 selected = false
 hasMoved = false
 completedMove = true
+numMoves = 0
